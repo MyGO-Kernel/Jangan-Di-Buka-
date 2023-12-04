@@ -8,7 +8,7 @@ export LC_ALL=C && export USE_CCACHE=1
 export ARCH=arm64
 export KBUILD_BUILD_HOST=Axioo
 export KBUILD_BUILD_USER="Soni Hikari"
-git clone https://gitlab.com/tejas101k/clang-weebx  clang
+git clone https://gitlab.com/onettboots/boolx-clang -b Clang-17.0_x86  clang
 
 [ -d "out" ] && rm -rf out || mkdir -p out
 
